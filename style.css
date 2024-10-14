@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(4, 53, 11);
+    margin: 0;
+    padding: 0;
+    background-image: url('https://cdn.wallpapersafari.com/81/60/W1M7KR.jpg');
+}
+
+.container {
+    width: 55%;
+    margin: 15%;
+    background-color:rgb(2, 22, 16);
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.container1 {
+    width: 55%;
+    margin: 25%;
+    background-color:rgb(88, 212, 171);
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-image: url('https://cdn.wallpapersafari.com/81/60/W1M7KR.jpg');
+    border-color: #44e235;
+}
+.left {
+    width: 15%;
+    margin: 1px;
+    float: left;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.right{
+    width: 25%;
+    margin: 1px;
+    float: right;
+    padding: 15px;
+    text-align: center;
+}
+.texth1{
+    text-align: center;
+    color: rgb(197, 127, 34);
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    color: rgb(241, 202, 150);
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.h2{
+    color: rgb(214, 210, 210);
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form {
+    margin: 50px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 18px;
+    color: #f2f2f2;
+    
+}
+.addStu >label{
+    color: #020a01;
+}
+tr>td{
+    background-color: rgb(173, 241, 173);
+    border-color: black;
+}
+tr>th{
+    background-color: rgb(120, 236, 120);
+    border-color: black;
+}
+
+input {
+
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: rgb(202, 233, 223);
+    border-radius: 10px;
+    font-size: 18px;
+}
+input:hover{
+    background-color: rgb(33, 92, 92);
+    color: #f2f2f2;
+}
+.login{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(41, 97, 76);
+    color: antiquewhite;
+    border-radius: 15px;
+    font-size: 16px;
+}
+.login:hover{
+    background-color: green;
+}
+
+.logout{
+    margin: 1px;
+    width: 20%;
+    padding:10px;
+    
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(231, 231, 96);
+    color: rgb(27, 26, 25);
+    border-radius: 20px;
+    text-decoration: none;
+}
+.logout:hover{
+    background-color: rgb(168, 21, 21);
+    color: aliceblue;
+}
+
+ 
+.add{
+    margin-top: 10px;
+    width: 50%;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(7, 209, 125);
+    color: rgb(20, 20, 19);
+    border-radius: 20px;
+    font-size: 14px;
+}
+.add:hover{
+    background-color:rgb(212, 212, 22);
+    border-color: antiquewhite;
+    color:black;
+}
+
+.submit{
+    margin-top: 10px;
+    width: 50%;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(155, 216, 191);
+    color: rgb(20, 20, 19);
+    border-radius: 20px;
+    font-size: 14px;
+}
+.submit:hover{
+    background-color: rgb(185, 53, 53);
+    border-color: antiquewhite;
+    color:white;
+}
+
+
+/* add new student css */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2; 
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        margin: 8%;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+    }
+
+    .add, input, .login,
+    .submit,
+    .logout {
+        width: 100%;
+    }
+}

@@ -1,0 +1,15 @@
+**Database Name: sia_db**
+
+**Developed by SIA GROUP PROJECT
+Juyrn Tamtam
+Judy Mae Lopez
+Rose Salipnget
+Precious Jhilen Oliva
+**
+
+**Recommended PHP Version 8.2.4 and Newer**
+
+**Teacher Login Details**
+
+UserName: Teacher
+Password: pass123
